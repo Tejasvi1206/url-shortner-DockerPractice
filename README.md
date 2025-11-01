@@ -1,21 +1,10 @@
-# Go URL Shortener 🔗
+Go URL Shortener
 
-A simple **URL shortener service** built with **Golang**.  
-It generates short hashes for long URLs and lets you redirect back to the original link.
+URL shortener service that will accept a URL as an argument over a REST API and return a shortened URL as a result.
 
----
-
-## 🚀 Features
-- Shorten any long URL into a unique short hash  
-- Redirect short URL → original URL  
-- JSON-based in-memory storage (can be extended to DB)  
-- REST API built using Go’s `net/http`  
-
----
-
-## 🛠️ Tech Stack
-- **Language**: Go (Golang)  
-- **Libraries**: `crypto/md5`, `encoding/json`, `net/http`  
-- **Database**: In-memory (map)  
-
----
+Features
+-Shorten any long URL into a unique short hash
+-If ask again for the same URL,itshould give me the same URL as it gave before.
+-Redirect short URL to the original URL
+-In-memory storage using a Go map
+-Metrics API to show top 3 most used domains
