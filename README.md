@@ -55,12 +55,12 @@ request to the original URL.
 - Containerization: Docker
 ```
 ## Project Structure
-.
+```text
 ├── Dockerfile
 ├── README.md
 ├── go.mod
 └── main.go
-
+```
 ## API Capabilities
 - URL Shortening
 Accepts a long URL and returns its corresponding shortened URL.
