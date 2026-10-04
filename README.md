@@ -48,11 +48,12 @@ request to the original URL.
 ```
 
 ## Tech Stack
+```text
 - Language: Go
 - API: REST
 - Storage: In-memory Go map
 - Containerization: Docker
-
+```
 ## Project Structure
 .
 ├── Dockerfile
